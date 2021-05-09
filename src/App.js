@@ -20,6 +20,7 @@ import Enquires from "./Enquires";
 import Information from "./Information";
 import { ListItemText } from '@material-ui/core';
 import { BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
+import { Redirect } from 'react-router';
 import { useState } from 'react';
 import CampusTour from './CampusTour';
 import { ThemeProvider, createMuiTheme, makeStyles } from '@material-ui/core/styles';
@@ -209,6 +210,9 @@ function App() {
         
         
             <Switch>
+              <Route exact path="/">
+                <Redirect from="/" to="/Events" />
+              </Route>
               <Route path="/Events" component={Events}></Route>
               <Route path="/Enquires" component={Enquires}></Route>
               <Route path="/Information" component={Information}></Route>
