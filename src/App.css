@@ -1,0 +1,160 @@
+
+#appBar{
+  height: 50px;
+  position: static;
+}
+
+#ToolB{
+  justify-content: space-between;
+}
+
+#ListID{
+  display: flex;
+  flex-direction: column;
+  row-gap: 82.5px;
+  background-size:initial;
+  font: bold;
+}
+
+
+
+#Lit{
+  color: black;
+}
+
+.buttons{
+  display: flex;
+  text-align: middle;
+  justify-content: center;
+  margin: auto;
+}
+
+#typo1{
+  color: black;
+  align-items: center;
+}
+
+input{
+  width: 250px;
+  height: 25px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: blue;
+  
+}
+a:link {
+  text-decoration: none;
+}
+
+#your_info{
+  justify-content: space-evenly;
+  padding-top: 25%;
+  display: grid;
+  grid-template-areas:
+      "form_header"
+      "ip1"
+      "ip2"
+      "ip3"
+      "ip4"
+      "ip5"
+}
+
+#header{
+  display: flex;
+}
+
+#name_div{
+  grid-area: ip1;
+  display: grid;
+  grid-template-rows: 40% 40%;
+  padding: 15px;
+  padding-bottom: 5px;
+}
+
+#LastName{
+  grid-area: ip2;
+  display: grid;
+  grid-template-rows: 40% 40%;
+  padding: 15px;
+  padding-bottom: 5px;
+}
+
+#country_div{
+  grid-area: ip3;
+  display: grid;
+  grid-template-rows: 40% 40%;
+  padding: 15px;
+  padding-bottom: 5px;
+}
+
+#email_div{
+  grid-area: ip4;
+  display: grid;
+  grid-template-rows: 40% 40%;
+  padding: 15px;
+  padding-bottom: 5px;
+}
+
+#phone_div{
+  grid-area: ip5;
+  display: grid;
+  grid-template-rows: 40% 40%;
+  padding: 15px;
+  padding-bottom: 5px;
+}
+
+#h1{
+  text-align: left;
+  padding: 40px;
+  font-size: 150%;
+}
+
+#form_header{
+  grid-area: form_header;
+  text-align: center;
+}
+
+#Northern{
+  margin: auto;
+}
+
+#MoreInfo{
+  display:flex;
+  justify-content: center;;
+}
+
+#call{
+  display: flex;
+  justify-content: center;
+}
+
+#submit{
+  margin: auto;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+#tourLink{
+  display: flex;
+  justify-content: center;
+}
+
+.titles{
+  display: flex;
+  justify-content: center;
+}
+
+.info{
+  display: flex;
+  justify-content: center;
+  margin-left: 35px;
+  margin-right: 35px;
+}
